@@ -1,0 +1,30 @@
+.services{
+    background-color: gold;
+    padding: 2rem var(--padding);
+}
+.text-center{
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.box :hover{
+    transform: scale(1.1);}
+.card{
+    width: 280px;
+    background-color: rgb(51, 182, 214);
+    border-radius: 20px;
+    padding: 2rem 3rem;
+    margin: 25px;
+    transition: 0.7s ease;
+}
+.card i {
+    font-size: 3rem;
+    margin-left: 115px;
+    color: rgb(252, 252, 252);
+}
+h3{
+    text-align: center;
+    color: rgb(223, 226, 43);
+}
